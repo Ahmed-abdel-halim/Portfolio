@@ -517,3 +517,19 @@ footer img {
     height: 200px;
   }
 }
+/* about page */
+.about-image{
+    width: 50%;
+    margin-top: -20px;
+    height: 200px;
+    margin-left: 80px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.about-text {
+    width: 80%;
+    text-align: justify;
+    
+    font-size: 18px;
+    color: #333;
+}
