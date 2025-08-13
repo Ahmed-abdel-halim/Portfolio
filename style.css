@@ -387,6 +387,12 @@ footer img {
     left: 0;
     z-index: -1;
 }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}   
 
 /* ====== Responsive Styles ====== */
 @media (max-width: 991px) {
@@ -436,3 +442,63 @@ footer img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+/* project */
+.project-card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2b2561;
+}
+/* ===== Project Card Styling ===== */
+.project-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* الصورة */
+.project-card img {
+    object-fit: cover;
+    border-bottom: 3px solid #ff6a00;
+}
+.project-card video {
+    object-fit: cover;
+    border-bottom: 3px solid #ff6a00;
+}
+
+/* العنوان */
+
+/* الوصف */
+.project-card .card-text {
+    font-size: 14px;
+    color: #666;
+}
+
+/* قائمة التقنيات */
+.tech-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-list li {
+    background: #f5f5f5;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* الزر */
+
