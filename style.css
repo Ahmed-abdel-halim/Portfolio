@@ -448,7 +448,6 @@ footer img {
     font-weight: bold;
     color: #2b2561;
 }
-/* ===== Project Card Styling ===== */
 .project-card {
     border: none;
     border-radius: 15px;
@@ -500,5 +499,21 @@ footer img {
     color: #333;
 }
 
-/* الزر */
+@media (max-width: 768px) {
+  .project-card .card-title {
+    font-size: 18px;
+  }
+  .project-card .card-text {
+    font-size: 13px;
+  }
+  .tech-list {
+    gap: 5px;
+  }
+}
 
+@media (max-width: 576px) {
+  .project-card video,
+  .project-card img {
+    height: 200px;
+  }
+}
