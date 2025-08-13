@@ -262,6 +262,7 @@ nav ul li a:hover {
         padding-top: 45%;
     }
 
+
     .hello {
         font-size: 21px;
     }
@@ -534,6 +535,10 @@ footer img {
     .project-card img {
         height: 200px;
     }
+    
+    .project-card  {
+        margin-bottom: 20px;
+    }
 }
 
 /* about page */
@@ -547,12 +552,24 @@ footer img {
 }
 
 .about-text {
-    width: 80%;
     text-align: justify;
-
     font-size: 18px;
     color: #333;
 }
+@media (max-width: 576px) {
+
+    .about-image {
+     
+        margin-bottom: 20px;
+    }
+    .about-text {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+
+}
+/* contact */
 
 .contact-title {
     font-size: 2.5rem;
