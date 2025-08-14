@@ -660,3 +660,8 @@ footer img {
 .icon.github {
     background: #333;
 }
+/* project home */
+.project-home {
+    padding: 50px 20px;
+    background: rgb(227, 230, 238);
+}
