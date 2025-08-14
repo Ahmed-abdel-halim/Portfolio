@@ -665,3 +665,50 @@ footer img {
     padding: 50px 20px;
     background: rgb(227, 230, 238);
 }
+
+/* dark mode */
+/* الثيم الداكن */
+body.dark-theme {
+    background-color: #121212;
+}
+
+/* الهيدر */
+body.dark-theme header {
+    background: rgba(18, 18, 18, 0.95);
+}
+
+body.dark-theme nav ul li a {
+    color: #fff;
+    opacity: 0.8;
+}
+
+body.dark-theme nav ul li a:hover {
+    color: orange;
+}
+
+body.dark-theme .certification p{
+    color: #070707;    
+}
+
+/* الأقسام ذات الخلفيات البيضاء */
+body.dark-theme .about,
+body.dark-theme .project-card,
+body.dark-theme .contact-box,
+body.dark-theme .skills-section {
+    background-color: #1e1e1e;
+    color: #ddd;
+}
+body.dark-theme .about-text{
+    color: #ccc;
+}
+
+/* النصوص الفاتحة */
+body.dark-theme .about p,
+body.dark-theme .project-card .card-text {
+    color: #ccc;
+}
+
+/* الفوتر */
+body.dark-theme footer {
+    background: linear-gradient(-120deg, #000, #111, #222);
+}

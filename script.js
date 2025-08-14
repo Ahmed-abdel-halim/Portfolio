@@ -108,3 +108,27 @@ if (typeof AOS !== 'undefined') {
         once: true
     });
 }
+
+
+// dark mode toggle
+    const toggleBtn = document.querySelector('.theme-toggle');
+    const icon = toggleBtn.querySelector('i');
+    const body = document.body;
+
+    // لو فيه ثيم محفوظ قبل كده، نطبقه
+    if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-theme');
+        icon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+    toggleBtn.addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+
+        if (body.classList.contains('dark-theme')) {
+            localStorage.setItem('theme', 'dark');
+            icon.classList.replace('fa-moon', 'fa-sun'); // شمس
+        } else {
+            localStorage.setItem('theme', 'light');
+            icon.classList.replace('fa-sun', 'fa-moon'); // قمر
+        }
+    });
