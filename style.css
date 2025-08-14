@@ -712,3 +712,31 @@ body.dark-theme .project-card .card-text {
 body.dark-theme footer {
     background: linear-gradient(-120deg, #000, #111, #222);
 }
+body.dark-theme .menu-toggle {
+    color: #fff !important; /* خلي الأيقونة بيضاء */
+}
+
+/* القوائم المنسدلة في الثيم الداكن */
+body.dark-theme nav ul {
+    background: rgba(18, 18, 18, 0.95) !important;
+}
+
+body.dark-theme nav ul li a {
+    color: #fff !important;
+    opacity: 0.9;
+}
+
+body.dark-theme nav ul li a:hover {
+    background: orange;
+    color: #fff !important;
+}
+body.dark-theme .project-home {
+    background: #fff !important; /* يفضل أبيض حتى في الوضع الداكن */
+}
+.projects-page {
+    background: #fff !important; /* أبيض ثابت */
+}
+
+body.dark-theme.projects-page {
+    background: #fff !important; /* يفضل أبيض حتى في الوضع الداكن */
+}
