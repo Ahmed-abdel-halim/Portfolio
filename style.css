@@ -669,7 +669,7 @@ footer img {
 /* dark mode */
 /* الثيم الداكن */
 body.dark-theme {
-    background-color: #121212;
+    background-color: black;
 }
 
 /* الهيدر */
