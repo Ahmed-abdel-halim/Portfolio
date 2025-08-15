@@ -701,6 +701,10 @@ body.dark-theme .skills-section {
 body.dark-theme .about-text{
     color: #ccc;
 }
+body.dark-theme .theme-toggle i {
+    color: #fff; /* خلي الأيقونة بيضاء */
+}
+
 
 /* النصوص الفاتحة */
 body.dark-theme .about p,
